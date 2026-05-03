@@ -13,6 +13,6 @@ Pagination using Backend
 Responsive works on different device
 
 #WEBSITE PREVIEW
-![Grocify Preview](./public/Grocify.png)
+![Grocify Preview](./images/Grocify.png)
 
 Simple Website Page Build for fun 😁
