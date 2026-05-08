@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { ProductContext } from "./context/ProductContext";
+import { ProductContext } from "./../context/ProductContext";
 const styleCategory = {
   All: { backgroundColor: "#27ae60", color: "#FFFFFF" },
   bakery: { backgroundColor: "#FF653F", color: "#FFFFFF" },

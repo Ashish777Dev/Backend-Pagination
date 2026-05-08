@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { ProductContext } from "./context/ProductContext";
+import { ProductContext } from "./../context/ProductContext";
 import CategoryFilter from "./CategoryFilter";
 import ProductSection from "./ProductSection";
 import Pagination from "./Pagination";
