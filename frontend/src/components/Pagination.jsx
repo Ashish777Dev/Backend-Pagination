@@ -43,8 +43,6 @@ const Pagination = ({ startPage, endPage, currentPage, setCurrentPage }) => {
 
   const buttons = genratePageButton();
 
-  console.log(range(startPage, endPage));
-
   return (
     <div className="pagination">
       <button
@@ -52,7 +50,7 @@ const Pagination = ({ startPage, endPage, currentPage, setCurrentPage }) => {
         onClick={() => setCurrentPage(currentPage - 1)}
         disabled={currentPage <= startPage}
       >
-        «
+        ←
       </button>
       <div className="page-btn-container">
         {buttons.map((pageNo) => {
@@ -73,7 +71,7 @@ const Pagination = ({ startPage, endPage, currentPage, setCurrentPage }) => {
         onClick={() => setCurrentPage(currentPage + 1)}
         disabled={currentPage >= endPage}
       >
-        »
+        →
       </button>
     </div>
   );

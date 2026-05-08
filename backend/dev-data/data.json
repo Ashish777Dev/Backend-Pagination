@@ -1,31 +1,31 @@
 [
   {
     "id": 1,
-    "name": "Red Apple (1kg)",
+    "name": "Red Apple",
     "emoji": "🍎",
-    "price": 180,
+    "price": 45,
     "category": "Fruit"
   },
   {
     "id": 2,
-    "name": "Banana (Dozen)",
+    "name": "Banana",
     "emoji": "🍌",
-    "price": 60,
+    "price": 20,
     "category": "Fruit"
   },
   {
     "id": 3,
-    "name": "Broccoli",
-    "emoji": "🥦",
-    "price": 90,
-    "category": "Vegetable"
+    "name": "Green Grapes",
+    "emoji": "🍇",
+    "price": 80,
+    "category": "Fruit"
   },
   {
     "id": 4,
-    "name": "Carrot (1kg)",
-    "emoji": "🥕",
-    "price": 40,
-    "category": "Vegetable"
+    "name": "Blueberries",
+    "emoji": "🫐",
+    "price": 120,
+    "category": "Fruit"
   },
   {
     "id": 5,
@@ -36,317 +36,655 @@
   },
   {
     "id": 6,
-    "name": "Amul Cheese",
+    "name": "Cheddar Cheese",
     "emoji": "🧀",
-    "price": 120,
+    "price": 150,
     "category": "Dairy"
   },
   {
     "id": 7,
-    "name": "Whole Chicken",
-    "emoji": "🍗",
-    "price": 450,
-    "category": "Meat"
+    "name": "Carrot",
+    "emoji": "🥕",
+    "price": 15,
+    "category": "Vegetable"
   },
   {
     "id": 8,
-    "name": "Beef Steak",
-    "emoji": "🥩",
-    "price": 600,
-    "category": "Meat"
+    "name": "Broccoli",
+    "emoji": "🥦",
+    "price": 35,
+    "category": "Vegetable"
   },
   {
     "id": 9,
-    "name": "Pav / Bread",
-    "emoji": "🍞",
-    "price": 35,
-    "category": "Bakery"
+    "name": "Avocado",
+    "emoji": "🥑",
+    "price": 90,
+    "category": "Fruit"
   },
   {
     "id": 10,
-    "name": "Paneer (200g)",
-    "emoji": "🧀",
-    "price": 90,
-    "category": "Dairy"
-  },
-  {
-    "id": 11,
-    "name": "Green Grapes",
-    "emoji": "🍇",
-    "price": 80,
-    "category": "Fruit"
-  },
-  {
-    "id": 12,
-    "name": "Watermelon",
-    "emoji": "🍉",
-    "price": 100,
-    "category": "Fruit"
-  },
-  {
-    "id": 13,
-    "name": "Pineapple",
-    "emoji": "🍍",
-    "price": 70,
-    "category": "Fruit"
-  },
-  {
-    "id": 14,
-    "name": "Mango (Alphonso)",
-    "emoji": "🥭",
-    "price": 500,
-    "category": "Fruit"
-  },
-  {
-    "id": 15,
-    "name": "Avocado",
-    "emoji": "🥑",
-    "price": 250,
-    "category": "Vegetable"
-  },
-  {
-    "id": 16,
-    "name": "Eggplant (Baingan)",
+    "name": "Eggplant",
     "emoji": "🍆",
-    "price": 40,
-    "category": "Vegetable"
-  },
-  {
-    "id": 17,
-    "name": "Potato (Aloo)",
-    "emoji": "🥔",
-    "price": 30,
-    "category": "Vegetable"
-  },
-  {
-    "id": 18,
-    "name": "Corn (Bhutta)",
-    "emoji": "🌽",
     "price": 25,
     "category": "Vegetable"
   },
   {
+    "id": 11,
+    "name": "Croissant",
+    "emoji": "🥐",
+    "price": 40,
+    "category": "Bakery"
+  },
+  {
+    "id": 12,
+    "name": "Sourdough Bread",
+    "emoji": "🍞",
+    "price": 55,
+    "category": "Bakery"
+  },
+  {
+    "id": 13,
+    "name": "Pretzel",
+    "emoji": "🥨",
+    "price": 30,
+    "category": "Bakery"
+  },
+  {
+    "id": 14,
+    "name": "Chicken Breast",
+    "emoji": "🍗",
+    "price": 250,
+    "category": "Meat"
+  },
+  {
+    "id": 15,
+    "name": "Beef Steak",
+    "emoji": "🥩",
+    "price": 450,
+    "category": "Meat"
+  },
+  {
+    "id": 16,
+    "name": "Bacon",
+    "emoji": "🥓",
+    "price": 180,
+    "category": "Meat"
+  },
+  {
+    "id": 17,
+    "name": "Shrimp",
+    "emoji": "🍤",
+    "price": 320,
+    "category": "Seafood"
+  },
+  {
+    "id": 18,
+    "name": "Salmon Fillet",
+    "emoji": "🍣",
+    "price": 500,
+    "category": "Seafood"
+  },
+  {
     "id": 19,
-    "name": "Green Chilli",
+    "name": "Honey Jar",
+    "emoji": "🍯",
+    "price": 210,
+    "category": "Pantry"
+  },
+  {
+    "id": 20,
+    "name": "Maple Syrup",
+    "emoji": "🍁",
+    "price": 280,
+    "category": "Pantry"
+  },
+  {
+    "id": 21,
+    "name": "Peanut Butter",
+    "emoji": "🥜",
+    "price": 140,
+    "category": "Pantry"
+  },
+  {
+    "id": 22,
+    "name": "Olive Oil",
+    "emoji": "🫒",
+    "price": 350,
+    "category": "Pantry"
+  },
+  {
+    "id": 23,
+    "name": "Chocolate Bar",
+    "emoji": "🍫",
+    "price": 50,
+    "category": "Snacks"
+  },
+  {
+    "id": 24,
+    "name": "Potato Chips",
+    "emoji": "🍟",
+    "price": 30,
+    "category": "Snacks"
+  },
+  {
+    "id": 25,
+    "name": "Popcorn",
+    "emoji": "🍿",
+    "price": 25,
+    "category": "Snacks"
+  },
+  {
+    "id": 26,
+    "name": "Ice Cream",
+    "emoji": "🍦",
+    "price": 75,
+    "category": "Frozen"
+  },
+  {
+    "id": 27,
+    "name": "Frozen Pizza",
+    "emoji": "🍕",
+    "price": 190,
+    "category": "Frozen"
+  },
+  {
+    "id": 28,
+    "name": "Strawberry",
+    "emoji": "🍓",
+    "price": 110,
+    "category": "Fruit"
+  },
+  {
+    "id": 29,
+    "name": "Watermelon",
+    "emoji": "🍉",
+    "price": 60,
+    "category": "Fruit"
+  },
+  {
+    "id": 30,
+    "name": "Pineapple",
+    "emoji": "🍍",
+    "price": 85,
+    "category": "Fruit"
+  },
+  {
+    "id": 31,
+    "name": "Mango",
+    "emoji": "🥭",
+    "price": 95,
+    "category": "Fruit"
+  },
+  {
+    "id": 32,
+    "name": "Peach",
+    "emoji": "🍑",
+    "price": 70,
+    "category": "Fruit"
+  },
+  { "id": 33, "name": "Kiwi", "emoji": "🥝", "price": 40, "category": "Fruit" },
+  {
+    "id": 34,
+    "name": "Tomato",
+    "emoji": "🍅",
+    "price": 20,
+    "category": "Vegetable"
+  },
+  {
+    "id": 35,
+    "name": "Corn",
+    "emoji": "🌽",
+    "price": 18,
+    "category": "Vegetable"
+  },
+  {
+    "id": 36,
+    "name": "Hot Pepper",
     "emoji": "🌶️",
+    "price": 12,
+    "category": "Vegetable"
+  },
+  {
+    "id": 37,
+    "name": "Cucumber",
+    "emoji": "🥒",
+    "price": 15,
+    "category": "Vegetable"
+  },
+  {
+    "id": 38,
+    "name": "Lettuce",
+    "emoji": "🥬",
+    "price": 22,
+    "category": "Vegetable"
+  },
+  {
+    "id": 39,
+    "name": "Mushroom",
+    "emoji": "🍄",
+    "price": 45,
+    "category": "Vegetable"
+  },
+  {
+    "id": 40,
+    "name": "Potato",
+    "emoji": "🥔",
     "price": 10,
     "category": "Vegetable"
   },
   {
-    "id": 20,
-    "name": "Mushroom",
-    "emoji": "🍄",
-    "price": 50,
-    "category": "Vegetable"
-  },
-  {
-    "id": 21,
-    "name": "Peanuts",
-    "emoji": "🥜",
-    "price": 140,
-    "category": "Snack"
-  },
-  {
-    "id": 22,
-    "name": "Cashews (Kaju)",
-    "emoji": "🌰",
-    "price": 800,
-    "category": "Snack"
-  },
-  {
-    "id": 23,
+    "id": 41,
     "name": "Sweet Potato",
     "emoji": "🍠",
-    "price": 60,
+    "price": 28,
     "category": "Vegetable"
   },
   {
-    "id": 24,
-    "name": "Eggs (Tray)",
-    "emoji": "🍳",
-    "price": 180,
-    "category": "Dairy"
+    "id": 42,
+    "name": "Garlic",
+    "emoji": "🧄",
+    "price": 8,
+    "category": "Vegetable"
   },
   {
-    "id": 25,
-    "name": "Ghee Jar",
+    "id": 43,
+    "name": "Onion",
+    "emoji": "🧅",
+    "price": 9,
+    "category": "Vegetable"
+  },
+  {
+    "id": 44,
+    "name": "Baguette",
+    "emoji": "🥖",
+    "price": 32,
+    "category": "Bakery"
+  },
+  {
+    "id": 45,
+    "name": "Bagel",
+    "emoji": "🥯",
+    "price": 15,
+    "category": "Bakery"
+  },
+  {
+    "id": 46,
+    "name": "Pancake",
+    "emoji": "🥞",
+    "price": 65,
+    "category": "Bakery"
+  },
+  {
+    "id": 47,
+    "name": "Waffle",
+    "emoji": "🧇",
+    "price": 70,
+    "category": "Bakery"
+  },
+  {
+    "id": 48,
+    "name": "Butter",
     "emoji": "🧈",
-    "price": 550,
+    "price": 55,
     "category": "Dairy"
   },
   {
-    "id": 26,
-    "name": "Mutton",
-    "emoji": "🥓",
-    "price": 750,
+    "id": 49,
+    "name": "Eggs (12pk)",
+    "emoji": "🥚",
+    "price": 90,
+    "category": "Dairy"
+  },
+  {
+    "id": 50,
+    "name": "Greek Yogurt",
+    "emoji": "🥣",
+    "price": 45,
+    "category": "Dairy"
+  },
+  {
+    "id": 51,
+    "name": "Ham Slice",
+    "emoji": "🍖",
+    "price": 130,
     "category": "Meat"
   },
   {
-    "id": 27,
-    "name": "Veg Burger",
-    "emoji": "🍔",
-    "price": 120,
-    "category": "Fast Food"
-  },
-  {
-    "id": 28,
-    "name": "Pizza",
-    "emoji": "🍕",
-    "price": 299,
-    "category": "Fast Food"
-  },
-  {
-    "id": 29,
-    "name": "Masala Fries",
-    "emoji": "🍟",
-    "price": 90,
-    "category": "Fast Food"
-  },
-  {
-    "id": 30,
-    "name": "Fish (Rohu)",
-    "emoji": "🍣",
-    "price": 350,
+    "id": 52,
+    "name": "Lobster",
+    "emoji": "🦞",
+    "price": 850,
     "category": "Seafood"
   },
   {
-    "id": 31,
-    "name": "Prawns",
-    "emoji": "🍤",
-    "price": 400,
+    "id": 53,
+    "name": "Crab",
+    "emoji": "🦀",
+    "price": 600,
     "category": "Seafood"
   },
   {
-    "id": 32,
-    "name": "Idli Batter",
-    "emoji": "🍙",
-    "price": 60,
-    "category": "Grains"
-  },
-  {
-    "id": 33,
-    "name": "Maggi Noodles",
-    "emoji": "🍝",
-    "price": 14,
-    "category": "Grains"
-  },
-  {
-    "id": 34,
-    "name": "Samosa (2pc)",
-    "emoji": "🌮",
-    "price": 30,
-    "category": "Fast Food"
-  },
-  {
-    "id": 35,
-    "name": "Honey",
-    "emoji": "🍯",
+    "id": 54,
+    "name": "Squid",
+    "emoji": "🦑",
     "price": 220,
+    "category": "Seafood"
+  },
+  {
+    "id": 55,
+    "name": "Tropical Drink",
+    "emoji": "🍹",
+    "price": 120,
+    "category": "Beverage"
+  },
+  {
+    "id": 56,
+    "name": "Red Wine",
+    "emoji": "🍷",
+    "price": 550,
+    "category": "Beverage"
+  },
+  {
+    "id": 57,
+    "name": "Beer Mug",
+    "emoji": "🍺",
+    "price": 45,
+    "category": "Beverage"
+  },
+  {
+    "id": 58,
+    "name": "Coffee Beans",
+    "emoji": "☕",
+    "price": 300,
+    "category": "Beverage"
+  },
+  {
+    "id": 59,
+    "name": "Green Tea",
+    "emoji": "🍵",
+    "price": 150,
+    "category": "Beverage"
+  },
+  {
+    "id": 60,
+    "name": "Sake",
+    "emoji": "🍶",
+    "price": 400,
+    "category": "Beverage"
+  },
+  {
+    "id": 61,
+    "name": "Glass of Juice",
+    "emoji": "🧃",
+    "price": 25,
+    "category": "Beverage"
+  },
+  {
+    "id": 62,
+    "name": "Soda Can",
+    "emoji": "🥤",
+    "price": 18,
+    "category": "Beverage"
+  },
+  {
+    "id": 63,
+    "name": "Water Bottle",
+    "emoji": "🍼",
+    "price": 10,
+    "category": "Beverage"
+  },
+  {
+    "id": 64,
+    "name": "Doughnut",
+    "emoji": "🍩",
+    "price": 22,
+    "category": "Bakery"
+  },
+  {
+    "id": 65,
+    "name": "Cookie",
+    "emoji": "🍪",
+    "price": 12,
+    "category": "Bakery"
+  },
+  {
+    "id": 66,
+    "name": "Birthday Cake",
+    "emoji": "🎂",
+    "price": 800,
+    "category": "Bakery"
+  },
+  {
+    "id": 67,
+    "name": "Cupcake",
+    "emoji": "🧁",
+    "price": 35,
+    "category": "Bakery"
+  },
+  {
+    "id": 68,
+    "name": "Pie Slice",
+    "emoji": "🥧",
+    "price": 50,
+    "category": "Bakery"
+  },
+  {
+    "id": 69,
+    "name": "Candy",
+    "emoji": "🍬",
+    "price": 5,
+    "category": "Snacks"
+  },
+  {
+    "id": 70,
+    "name": "Lollipop",
+    "emoji": "🍭",
+    "price": 3,
+    "category": "Snacks"
+  },
+  {
+    "id": 71,
+    "name": "Custard",
+    "emoji": "🍮",
+    "price": 40,
+    "category": "Snacks"
+  },
+  {
+    "id": 72,
+    "name": "Rice Bowl",
+    "emoji": "🍚",
+    "price": 30,
     "category": "Pantry"
   },
   {
-    "id": 36,
-    "name": "Mustard Oil",
+    "id": 73,
+    "name": "Spaghetti",
+    "emoji": "🍝",
+    "price": 45,
+    "category": "Pantry"
+  },
+  {
+    "id": 74,
+    "name": "Ramen Noodles",
+    "emoji": "🍜",
+    "price": 20,
+    "category": "Pantry"
+  },
+  {
+    "id": 75,
+    "name": "Curry Powder",
+    "emoji": "🍛",
+    "price": 110,
+    "category": "Pantry"
+  },
+  {
+    "id": 76,
+    "name": "Sushi Tray",
+    "emoji": "🍱",
+    "price": 350,
+    "category": "Frozen"
+  },
+  {
+    "id": 77,
+    "name": "Dumplings",
+    "emoji": "🥟",
+    "price": 180,
+    "category": "Frozen"
+  },
+  {
+    "id": 78,
+    "name": "Fortune Cookie",
+    "emoji": "🥠",
+    "price": 10,
+    "category": "Snacks"
+  },
+  {
+    "id": 79,
+    "name": "Takeout Box",
+    "emoji": "🥡",
+    "price": 200,
+    "category": "Pantry"
+  },
+  {
+    "id": 80,
+    "name": "Oyster",
+    "emoji": "🦪",
+    "price": 150,
+    "category": "Seafood"
+  },
+  {
+    "id": 81,
+    "name": "Soft Ice Cream",
+    "emoji": "🍦",
+    "price": 30,
+    "category": "Frozen"
+  },
+  {
+    "id": 82,
+    "name": "Shaved Ice",
+    "emoji": "🍧",
+    "price": 25,
+    "category": "Frozen"
+  },
+  {
+    "id": 83,
+    "name": "Watermelon Slice",
+    "emoji": "🍉",
+    "price": 15,
+    "category": "Fruit"
+  },
+  {
+    "id": 84,
+    "name": "Lemon",
+    "emoji": "🍋",
+    "price": 12,
+    "category": "Fruit"
+  },
+  {
+    "id": 85,
+    "name": "Orange",
+    "emoji": "🍊",
+    "price": 18,
+    "category": "Fruit"
+  },
+  { "id": 86, "name": "Pear", "emoji": "🍐", "price": 25, "category": "Fruit" },
+  {
+    "id": 87,
+    "name": "Cherry",
+    "emoji": "🍒",
+    "price": 130,
+    "category": "Fruit"
+  },
+  {
+    "id": 88,
+    "name": "Coconut",
+    "emoji": "🥥",
+    "price": 90,
+    "category": "Fruit"
+  },
+  {
+    "id": 89,
+    "name": "Olive",
     "emoji": "🫒",
     "price": 160,
     "category": "Pantry"
   },
   {
-    "id": 37,
-    "name": "Salt (Tata)",
+    "id": 90,
+    "name": "Peanuts",
+    "emoji": "🥜",
+    "price": 40,
+    "category": "Snacks"
+  },
+  {
+    "id": 91,
+    "name": "Chestnut",
+    "emoji": "🌰",
+    "price": 55,
+    "category": "Snacks"
+  },
+  {
+    "id": 92,
+    "name": "Leafy Green",
+    "emoji": "🌿",
+    "price": 10,
+    "category": "Vegetable"
+  },
+  {
+    "id": 93,
+    "name": "Sprout",
+    "emoji": "🌱",
+    "price": 12,
+    "category": "Vegetable"
+  },
+  {
+    "id": 94,
+    "name": "Cactus Fruit",
+    "emoji": "🌵",
+    "price": 60,
+    "category": "Fruit"
+  },
+  {
+    "id": 95,
+    "name": "Glass of Milk",
+    "emoji": "🥛",
+    "price": 15,
+    "category": "Dairy"
+  },
+  {
+    "id": 96,
+    "name": "Cheese Wedge",
+    "emoji": "🧀",
+    "price": 120,
+    "category": "Dairy"
+  },
+  {
+    "id": 97,
+    "name": "Hard Boiled Egg",
+    "emoji": "🥚",
+    "price": 10,
+    "category": "Dairy"
+  },
+  {
+    "id": 98,
+    "name": "Salt",
     "emoji": "🧂",
     "price": 25,
     "category": "Pantry"
   },
   {
-    "id": 38,
-    "name": "Popcorn",
-    "emoji": "🍿",
-    "price": 40,
-    "category": "Snack"
+    "id": 99,
+    "name": "Bento",
+    "emoji": "🍱",
+    "price": 400,
+    "category": "Frozen"
   },
   {
-    "id": 39,
-    "name": "Dairy Milk",
-    "emoji": "🍫",
-    "price": 40,
-    "category": "Snack"
-  },
-  {
-    "id": 40,
-    "name": "Kulfi",
-    "emoji": "🍦",
-    "price": 30,
-    "category": "Dessert"
-  },
-  {
-    "id": 41,
-    "name": "Chocolate Cake",
-    "emoji": "🍩",
-    "price": 500,
-    "category": "Bakery"
-  },
-  {
-    "id": 42,
-    "name": "Biscuits (Parle-G)",
-    "emoji": "🍪",
+    "id": 100,
+    "name": "Ice Cube",
+    "emoji": "🧊",
     "price": 5,
-    "category": "Bakery"
-  },
-  {
-    "id": 43,
-    "name": "Chai / Tea",
-    "emoji": "☕",
-    "price": 10,
-    "category": "Drink"
-  },
-  {
-    "id": 44,
-    "name": "Green Tea",
-    "emoji": "🍵",
-    "price": 150,
-    "category": "Drink"
-  },
-  {
-    "id": 45,
-    "name": "Frooti",
-    "emoji": "🥤",
-    "price": 20,
-    "category": "Drink"
-  },
-  {
-    "id": 46,
-    "name": "Cold Coffee",
-    "emoji": "🍺",
-    "price": 80,
-    "category": "Drink"
-  },
-  {
-    "id": 47,
-    "name": "Lassi",
-    "emoji": "🍷",
-    "price": 40,
-    "category": "Drink"
-  },
-  {
-    "id": 48,
-    "name": "Orange Juice",
-    "emoji": "🍊",
-    "price": 60,
-    "category": "Drink"
-  },
-  {
-    "id": 49,
-    "name": "Coconut Water",
-    "emoji": "🥥",
-    "price": 50,
-    "category": "Fruit"
-  },
-  {
-    "id": 50,
-    "name": "Strawberry (Box)",
-    "emoji": "🍓",
-    "price": 120,
-    "category": "Fruit"
+    "category": "Frozen"
   }
 ]
